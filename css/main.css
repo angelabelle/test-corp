@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'AvenirNextLTPro';
+    src: url('../fonts/AvenirNextLTPro-UltLtCn.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'FixtureItalic';
+    font-weight: bold;
+    src: url('../fonts/FixtureItalic-CondensedBlack.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Fixture';
+    src: url('../fonts/Fixture-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProRegular';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'DinProBoldItalic';
+    src: url('../fonts/DINPro-CondBoldIta.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'DinProCondLight';
+    src: url('../fonts/DINPro-CondLight.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'DinProCondMed';
+    src: url('../fonts/DINPro-CondMedium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'DinProReg';
+    src: url('../fonts/DINPro-Regular_0.otf') format("opentype");
+}
+
+body {
+    font-family: 'DinProReg', monospace;
+    max-width: 1296px;
+    width: 90vw;
+    height: 100vh;
+    margin: 0px;
+    padding-left: 10vw;
+    padding-right: auto;
+}
+.full h3
+{
+    font-family: "DinProCondMed" , monospace;
+}
+
+.pagecontainer {
+    position: relative;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: grey;
+    overflow: auto;
+    padding:0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    width: 20%;
+}
+
+.navbar li a {
+    font-family: "DinProCondMed", Arial, monospace;
+    font-size: 2em;
+    display: block;
+    color: lightgrey;
+    background-color: grey;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar img {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.searchbar {
+    font-family: Arial, monospace;
+    font-size: 10px;
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ccc;
+    color: darkgrey;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.top {
+    font-family: Arial, monospace;
+    font-size: 10px;
+    display: block;
+    /* position: fixed;
+    top: 0px;
+    left: 10px; */
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    /* color: darkgrey; */
+}
+
+.contained {
+    display: block;
+    clear: both;
+    height: 50%;
+    word-wrap: break-word;
+}
+
+.contained video
+{
+    width: 80%;
+        outline-style: none;
+        margin-left: 10%;
+        margin-right: auto;
+}
+
+.contained1 {
+    height: 100%;
+    width: 48%;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 0px;
+    float: left;
+}
+
+.contained2 {
+    height: 100%;
+    width: 48%;
+    margin-top: 20px;
+    margin-right: 0px;
+    float: right;
+}
+
+.full {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #759fff;
+    float: left;
+}
+
+#c3, #c4 {
+    margin-top: 20px;
+}
+
+#c1 {
+    /* background-image: url("../images/webImage1.jpg"); */
+}
+
+#c2 {
+    /* background-color: grey; */
+}
+
+#c3 {
+    /* background-color: grey; */
+}
+
+#c4 {
+    background-color: lightgrey;
+}
+
+.full h1 {
+    font-family: 'DinProCondLight', monospace;
+    text-transform: uppercase;
+    float: right;
+    padding: 0px;
+    font-size: 40px;
+    color: white;
+    width: 40%;
+}
+
+.full a {
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.full a:hover {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.full img {
+    margin-top: 0px;
+    width: 50% !important;
+    margin-bottom: 0px;
+}
+
+#c4 img {
+    width: 60%;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+#c1 h1, #c2 h1, #c3 h1, #c4 h1 {
+    font-family: 'DinProCondLight', monospace;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: lightgrey;
+    height: 80px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+#c2 h1, #c3 h1 {
+    background-color: darkgrey;
+}
+
+#c1 p, #c2 p, #c3 p, #c4 p {
+    font-family: 'DinProCondLight', monospace;
+    padding: 20px;
+}
+
+.footer {
+    display: block;
+    width: 100%;
+    height: 125px;
+    margin-top: 20px;
+    background: darkgrey;
+    float: left;
+    clear: both;
+    font-size: 10px;
+    font-family: 'DinProCondLight', monospace;
+}
+
+#terms {
+    padding-right: 10px;
+    float: right;
+}
+
+#copyright {
+    clear: left;
+    padding-left: 10px;
+    float: left;
+}
+
+#logo {
+    float: left;
+    height: 80%;
+}
+
+#logo img {
+    padding: 10px;
+    height: 90%;
+}
+
+#project {
+    background-color: white;
+    color: grey;
+    float: none;
+    height: 100%;
+}
+
+#project h1 {
+    font-family: "DinProBoldItalic", monospace, italic;
+    width: 100%;
+}
+
+#project p {
+    font-family: "DinProCondLight", monospace, italic;
+    font-size: 20px;
+    text-indent: 50px;
+    float: none;
+}
+
+#projectCont {
+    float: none;
+}
+
+.contained img {
+    width: 100%;
+}
+
+#surveillance {
+    background-image: url('../images/surv1.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+}
