@@ -1,8 +1,147 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-    <body>
-      <h1>T.E.S.T. Corp. Under Maintenance</h1>
-  </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>We Are Watching</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/callout.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class = "pagecontainer">
+
+        <div class="searchbar">
+            <p>
+                SEARCH:
+            </p>
+        </div>
+
+        <div class="top">
+            <p>
+                Todays Essential<br />
+                Science & Technology Corporation<br />
+            </p>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="watching.html">About</a></li>
+                <li><a href="projects/index.html">Projects</a></li>
+                <li><a href="index.html"><img src = "images/logoTop.png" /></a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="contact/index.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- slidshow begin -->
+
+        <section class="hero-slider">
+            <div class="hero-slide slider_1">
+                <div class="slider-overlay slider-1-overlay"></div>
+                <div class="container">
+                    <div class="slide-content text-white text-white">
+                        <h2 class="h1 text-white">FLORATECH: Bridging technology and Flora.</h2>
+                        <p class="hidden-xs"></p>
+                        <a class="text-white btn slide-btn" href="projects/index.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slideshow end -->
+
+        <div class="contained">
+            <div class="contained1" id="c1">
+                <h1>Project Floratech</h1>
+                <p>
+                    Our newest innovation, Floratech, is used to help the declining state of our Flora population, by maintaining the byproducts that are essential to our eco-system. We worked closely with the engineers of Silicon Valley, along side
+                    Biologist who dedicated their studies to Mutationism.
+                </p>
+            </div>
+            <div class="contained2" id="c2">
+                <h1>Research</h1>
+                <p>
+                    <strong>VRM Privacy Manifesto</strong> <br />
+                    15. The first privacy technologies we invented in the natural world were clothing and shelter. We did this when we first became human, dozens of millennia ago. <br />
+                    16. The Internet we have today is barely more than two decades old, and we still lack the online equivalents of clothing and shelter. This is why most of us are still as naked and exposed on the Internet as we were in Eden. It's also why it has been easy for businesses and governments to exploit our exposed selves.
+                </p>
+            </div>
+        </div>
+
+        <div class="contained">
+            <div class="full">
+                <img src="images/webimage12.png" />
+                <h1>Get to know<br />
+                    the team behind<br />
+                    the biotech<br />
+                    <a href="projects/index.html">Read More</a>
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="contained">
+            <div class="contained1" id="c3">
+                <h1>products</h1>
+                <p>
+                    ASLam<br />
+                    CVDC<br />
+                    h1n None<br />
+                    247z<br />
+                </p>
+            </div>
+            <div class="contained2" id="c4">
+                <h1>Technologies</h1>
+                <img src="images/webimage9.png" />
+            </div>
+        </div>
+
+        <div class="footer">
+            <div id="logo">
+                <img src="images/logosmall.png" />
+            </div>
+            <div id="copyright">
+                Copyright © 2020. All Rights Reserved - Todays Essential Science & Technology Corporation Privacy
+            </div>
+            <div id="terms">
+                Policy | Terms of Use
+            </div>
+        </div>
+    </div>
+
+    <!-- popup start -->
+    <div class="callout">
+        <div class="callout-header">COOKIES & PRIVACY</div>
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <div class="callout-container">
+            <p>By being on this website, you have automatically agreed that you are okay with us not caring about your privacy at all. We will now be using cookies for OUR best experience, and not yours. Thank you!</p>
+        </div>
+    </div>
+    <script>
+        $('.hero-slider').slick({
+            slidesToShow: 1,
+            prevArrow: $(".themes-carousel-controls .prev"),
+            nextArrow: $(".themes-carousel-controls .next"),
+            autoplay: true,
+            dots: false,
+            autoplaySpeed: 7000,
+            fade: true
+        });
+    </script>
+
+</body>
+
 </html>
